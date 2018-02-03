@@ -1,0 +1,79 @@
+[31.002044678] 2018-02-03 20:41:29,678 - INFO - launcher: Starting sanity checks
+[32.001972198] 2018-02-03 20:41:29,679 - INFO - launcher: Checking for Python 3.5+
+[32.001972198] 2018-02-03 20:41:29,679 - INFO - launcher: Checking console encoding
+[32.001972198] 2018-02-03 20:41:29,679 - INFO - launcher: Setting console encoding to UTF-8
+[33.002138138] 2018-02-03 20:41:29,680 - INFO - launcher: Ensuring we're in the right environment
+[34.002065659] 2018-02-03 20:41:29,681 - INFO - launcher: Adding local bins/ folder to path
+[36.002159119] 2018-02-03 20:41:29,683 - INFO - launcher: Required checks passed.
+[36.002159119] 2018-02-03 20:41:29,683 - INFO - launcher: Optional checks passed.
+[36.002159119] 2018-02-03 20:41:29,683 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.2680726051330566] 2018-02-03 20:41:30,915 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 213 in _setup_logging: Set logging level to INFO
+[1.2680726051330566] 2018-02-03 20:41:30,915 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[1.2680726051330566] 2018-02-03 20:41:30,915 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 86 in __init__: Loaded autoplaylist with 2530 entries
+[1.271072865] launcher-INFO: Connecting
+[8.7695016860961914] 2018-02-03 20:41:38,416 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 1011 in on_ready: Connection established, ready to go.
+[8.7695016860961914] 2018-02-03 20:41:38,416 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 324 in _cache_app_info: Caching app info
+[8.9305109977722168] 2018-02-03 20:41:38,577 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 844 in _scheck_server_permissions: Checking server permissions
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 852 in _scheck_configs: Validating config
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.config | In config.py::MainThread(4864), line 155 in async_validate: Validating options...
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 855 in _scheck_configs: Validating permissions config
+[8.9325110912322998] 2018-02-03 20:41:38,579 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4864), line 59 in async_validate: Validating permissions...
+[8.9335112571716309] 2018-02-03 20:41:38,580 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1022 in on_ready: Connected to Discord!
+[8.9335112571716309] 2018-02-03 20:41:38,580 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1032 in on_ready: Bot:   409404244391886881/DJ Snake#1207 [BOT]
+[8.9335112571716309] 2018-02-03 20:41:38,580 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1040 in on_ready: Owner: 285410626287697931/BlueReptile#4306
+
+[8.9345111846923828] 2018-02-03 20:41:38,581 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1043 in on_ready: Server List:
+[8.9345111846923828] 2018-02-03 20:41:38,581 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1044 in <listcomp>:  - Y.Zone
+[8.9345111846923828] 2018-02-03 20:41:38,581 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1088 in on_ready: Not bound to any text channels
+[8.9355113506317139] 2018-02-03 20:41:38,582 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1114 in on_ready: Not autojoining any voice channels
+[8.9355113506317139] 2018-02-03 20:41:38,582 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1118 in on_ready: Options:
+[8.9365112781524658] 2018-02-03 20:41:38,583 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1120 in on_ready:   Command prefix: !
+[8.9365112781524658] 2018-02-03 20:41:38,583 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1121 in on_ready:   Default volume: 25%
+[8.9375112056732178] 2018-02-03 20:41:38,584 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[8.9375112056732178] 2018-02-03 20:41:38,584 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[8.9375112056732178] 2018-02-03 20:41:38,584 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1125 in on_ready:   Auto-Summon: Enabled
+[8.9385113716125488] 2018-02-03 20:41:38,585 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1126 in on_ready:   Auto-Playlist: Enabled
+[8.9395112991333008] 2018-02-03 20:41:38,586 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1127 in on_ready:   Auto-Pause: Enabled
+[8.9395112991333008] 2018-02-03 20:41:38,586 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1128 in on_ready:   Delete Messages: Enabled
+[8.9405114650726318] 2018-02-03 20:41:38,587 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1130 in on_ready:     Delete Invoking: Disabled
+[8.9415116310119629] 2018-02-03 20:41:38,588 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1131 in on_ready:   Debug Mode: Disabled
+[8.9425117969512939] 2018-02-03 20:41:38,589 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 1132 in on_ready:   Downloaded songs will be saved
+[8.9435117244720459] 2018-02-03 20:41:38,590 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 252 in _join_startup_channels: Found resumable voice channel Y.Zone/⛔Generals VoiceChat⛔
+[8.9435117244720459] 2018-02-03 20:41:38,590 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 258 in _join_startup_channels: Found owner in "⛔Generals VoiceChat⛔"
+[8.9445118904113770] 2018-02-03 20:41:38,591 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 267 in _join_startup_channels: Attempting to join Y.Zone/⛔Generals VoiceChat⛔
+[8.9445118904113770] 2018-02-03 20:41:38,591 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 437 in get_voice_client: Connection attempt 1 to ⛔Generals VoiceChat⛔
+[8.9445118904113770] 2018-02-03 20:41:38,591 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[8.9455118179321289] 2018-02-03 20:41:38,592 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[8.9455118179321289] 2018-02-03 20:41:38,592 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[9.0915200710296631] 2018-02-03 20:41:38,738 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2552 in on_voice_state_update: Resumed voice connection to Y.Zone/⛔Generals VoiceChat⛔
+[9.0915200710296631] 2018-02-03 20:41:38,738 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 409404244391886881/DJ Snake#1207 on Y.Zone/⛔Generals VoiceChat⛔ -> [RESUME, CONNECT]
+[9.0915200710296631] 2018-02-03 20:41:38,738 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[9.2425289154052734] 2018-02-03 20:41:38,889 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[9.5915486812591553] 2018-02-03 20:41:39,238 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[9.5915486812591553] 2018-02-03 20:41:39,238 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 463 in get_voice_client: Connected in 0.6s
+[9.5925488471984863] 2018-02-03 20:41:39,239 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 464 in get_voice_client: Connected to Y.Zone/⛔Generals VoiceChat⛔
+[9.5935487747192383] 2018-02-03 20:41:39,240 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 805 in deserialize_queue: Deserializing queue for 293368870943588352
+[9.7165558338165283] 2018-02-03 20:41:39,363 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 555 in get_player: Created player via deserialization for server 293368870943588352 with 1 entries
+[9.7165558338165283] 2018-02-03 20:41:39,363 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 283 in _join_startup_channels: Joined Y.Zone/⛔Generals VoiceChat⛔
+[9.7175559997558594] 2018-02-03 20:41:39,364 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4864), line 311 in websocket_check: Starting websocket check loop for Y.Zone
+[9.7175559997558594] 2018-02-03 20:41:39,364 - FFMPEG - musicbot.player | In player.py::MainThread(4864), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-285OKea14Sc-B.U.G._Mafia_-_Bag_Pula-n_Lume_Si_V-o_Fac_Cadou_feat._ViLLy.webm
+[9.7645587921142578] 2018-02-03 20:41:39,411 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 781 in serialize_queue: Serializing queue for 293368870943588352
+[11.1286368370056152] 2018-02-03 20:41:40,775 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 285410626287697931/BlueReptile#4306 on Y.Zone/Room #1 -> [LEAVE, MOVE]
+[13.5207734107971191] 2018-02-03 20:41:43,168 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 285410626287697931/BlueReptile#4306 on Y.Zone/⛔Generals VoiceChat⛔ -> [JOIN, MOVE]
+[13.5217735767364502] 2018-02-03 20:41:43,169 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 2575 in on_voice_state_update: 285410626287697931/BlueReptile#4306 has joined Y.Zone/⛔Generals VoiceChat⛔
+[73.2811915874481201] 2018-02-03 20:42:42,928 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 374973208673386496/radio hamburg#7331 on Y.Zone/=======.AFK.======= -> [DISCONNECT]
+[73.3701965808868408] 2018-02-03 20:42:43,017 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 374973208673386496/radio hamburg#7331 on Y.Zone/=======.AFK.======= -> [CONNECT]
+[199.2453963756561279] 2018-02-03 20:44:48,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 374973208673386496/radio hamburg#7331 on Y.Zone/=======.AFK.======= -> [UNMUTE]
+[201.0895018577575684] 2018-02-03 20:44:50,736 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 285410626287697931/BlueReptile#4306 on Y.Zone/=======.AFK.======= -> [LEAVE, MOVE, MUTE]
+[203.7036514282226562] 2018-02-03 20:44:53,350 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4864), line 2564 in on_voice_state_update: Voice state update for 285410626287697931/BlueReptile#4306 on Y.Zone/⛔Generals VoiceChat⛔ -> [JOIN, MOVE, UNMUTE]
+[203.7036514282226562] 2018-02-03 20:44:53,350 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 2575 in on_voice_state_update: 285410626287697931/BlueReptile#4306 has joined Y.Zone/⛔Generals VoiceChat⛔
+[214.1462485790252686] 2018-02-03 20:45:03,793 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 2395 in on_message: 285410626287697931/BlueReptile#4306: !pause
+[218.5905027389526367] 2018-02-03 20:45:08,237 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 2395 in on_message: 285410626287697931/BlueReptile#4306: !clear
+[221.5246706008911133] 2018-02-03 20:45:11,172 - INFO - musicbot.bot | In bot.py::MainThread(4864), line 2395 in on_message: 285410626287697931/BlueReptile#4306: !clear 100
+[239.0426726341247559] 2018-02-03 20:45:28,690 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 909 in safe_delete_message: Cannot delete message "🚮", message not found
+[241.9178371429443359] 2018-02-03 20:45:31,565 - DEBUG - musicbot.bot | In bot.py::MainThread(4864), line 909 in safe_delete_message: Cannot delete message "🚮", message not found
